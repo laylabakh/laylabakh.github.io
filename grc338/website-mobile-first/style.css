@@ -1,0 +1,98 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+	display: block;
+}
+body {
+	font-family: pelago, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	margin: 1rem;
+	background-color: #fafafa;
+	color: #313030;
+ }
+ h2 {
+	font-family: capitol, sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-size:xx-large;
+	font-weight: 900;
+	color: #313030;
+	padding-bottom: 1rem;
+ }
+
+ h3 {
+	font-family: capitol, sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-weight: 920;
+	color: #313030;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: x-large;
+	border-top: #313030;
+	border-style: ridge;
+
+ }
+ h4 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+	font-style: bolder;
+	font-weight: 700;
+	text-align: left;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	font-size: larger;
+ }
+p, address{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align: left;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+ul{
+	margin-top: 1rem;
+	margin-bottom:  2rem;
+}
+li {
+	list-style-type: none;
+	margin-top: 1rem;
+	margin-bottom:  1rem;
+}
+a {
+	text-emphasis-style: none;
+	color: #313030;
+	text-decoration:underline;
+}
+ 
+ li a {
+	font-family: capitol, sans-serif;
+	font-style: normal;
+	text-align: left;
+	font-weight: 920;
+	color: #313030;
+	list-style-type: none;
+	float: inline-start;
+	display: block;
+	text-align: inline;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-top: #313030;
+	border-bottom: #313030;
+	border-left: #313030;
+	border-right: #313030;
+	border-style: ridge;
+  }
+  
+  li a:hover {
+	background-color: #2B547B;
+	color: #fafafa;
+  }
+
+
+
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
