@@ -1,0 +1,42 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * acier-bat-noir:
+ *   - http://typekit.com/eulas/00000000000000007735dfb5
+ * capitol:
+ *   - http://typekit.com/eulas/00000000000000007735b45a
+ * swear-text:
+ *   - http://typekit.com/eulas/00000000000000007735e263
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2022-11-10 20:16:36 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=wah4dci&ht=tk&f=27688.28018.46231&a=89998945&app=typekit&e=css");
+
+@font-face {
+font-family:"acier-bat-noir";
+src:url("https://use.typekit.net/af/01f5f8/00000000000000007735dfb5/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/01f5f8/00000000000000007735dfb5/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/01f5f8/00000000000000007735dfb5/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"capitol";
+src:url("https://use.typekit.net/af/f0e972/00000000000000007735b45a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/f0e972/00000000000000007735b45a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/f0e972/00000000000000007735b45a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"swear-text";
+src:url("https://use.typekit.net/af/9807cf/00000000000000007735e263/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/9807cf/00000000000000007735e263/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/9807cf/00000000000000007735e263/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+.tk-acier-bat-noir { font-family: "acier-bat-noir",sans-serif; }
+.tk-capitol { font-family: "capitol",sans-serif; }
+.tk-swear-text { font-family: "swear-text",serif; }
