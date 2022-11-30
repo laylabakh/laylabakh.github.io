@@ -1,0 +1,154 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	font-family: pelago, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	margin: 1rem;
+	background-color: #fafafa;
+	color: #313030;
+ }
+
+h1{
+	width: 100%;
+}
+
+ h2 {
+	font-family: capitol, sans-serif;
+	font-style: normal;
+	text-align: left;
+	font-size:xx-large;
+	font-weight: 900;
+	color: #313030;
+	padding-bottom: 1rem;
+ }
+
+ h3 {
+	font-family: capitol, sans-serif;
+	font-style: normal;
+	text-align: left;
+	font-weight: 920;
+	color: #313030;
+	padding-top: 1rem;
+	padding-bottom: .2rem;
+	font-size: x-large;
+	border-top: #313030;
+	border-style: ridge;
+ }
+
+ h4 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+	font-style: bolder;
+	font-weight: 700;
+	text-align: left;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	font-size: larger;
+ }
+
+p, address{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	text-align: left;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+ul{
+	margin-top: 1rem;
+	margin-bottom:  2rem;
+}
+
+li {
+	list-style-type: none;
+	margin-top: 1rem;
+	margin-bottom:  1rem;
+}
+
+a {
+	text-emphasis-style: none;
+	color: #313030;
+	text-decoration:underline;
+}
+ 
+ li a {
+	font-family: capitol, sans-serif;
+	font-style: normal;
+	text-align: left;
+	font-weight: 920;
+	color: #313030;
+	list-style-type: none;
+	float: inline-start;
+	text-align: inline;
+	display: block;
+	padding: 1rem 1rem;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: rgb(43, 84, 123);
+	color: #fafafa;
+  }
+@media screen and (min-width: 45em){
+	div.container{
+		display: grid;
+		max-width: 54rem;
+		margin:auto;
+		background-color:#fafafa;
+	}
+
+	body{
+		background-color:rgb(43, 84, 123);
+	}
+
+	nav{
+		display: grid;
+		margin-inline-start: center;
+		grid-template-columns: 3fr 2fr;
+		grid-row: 1rem;
+		color: #fafafa;
+		gap: 1rem;
+	}
+
+	li a {color: #0e0e0e;
+		float: left;
+		margin-top: 5.4rem;
+	}
+
+	li a:hover{
+		height: 1.62rem;
+	}
+	
+	h1{
+		margin-top: 6rem;
+		width: 100%;
+		margin-left: 1rem;
+	}
+
+	h2, h3, h4, p, address{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	header{
+		background-color: #fafafa
+		align-content: inline;
+	}
+
+	section{
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		gap: 1rem;
+		background-color: #fafafa;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
