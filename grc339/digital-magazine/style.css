@@ -19,8 +19,10 @@ header {
 
 nav {
     padding: 1rem 0;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: "copal-std-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem; 
 }
 
 h1 {
@@ -28,9 +30,10 @@ h1 {
 }
 
 h2{
-    font-weight: bold;
-    font-size: 2em; 
-    font-family: serif;
+    font-family: "copal-std-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem; 
 }
 
 a {
@@ -58,7 +61,7 @@ section.tertiary h2 {
 }
 
 h2, li a {
-    color: rgb(84, 119, 157);
+    color: #2d2e2e;
 }
 
 li {
@@ -98,7 +101,7 @@ aside {
 }
 
 footer {
-    background-color: rgb(84, 119, 157);
+    background-color: #Bcabae;
     box-sizing: border-box;
 }
 
@@ -230,4 +233,6 @@ section.secondary a p{
 }
 
 }
+
+
 
