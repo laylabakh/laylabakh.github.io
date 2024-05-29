@@ -25,6 +25,10 @@ nav {
     font-size: 1.5rem; 
 }
 
+nav.label{
+    flex: auto;
+}
+
 h1 {
     width: 6rem;;
 }
@@ -122,6 +126,19 @@ input:nth-of-type(2):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(3):checked ~ main figure:nth-of-type(7),
 input:nth-of-type(4):checked ~ main figure:nth-of-type(8){
     opacity: 1;
+}
+
+input {
+    display: none;
+}
+
+figure{
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+    padding-bottom: 3em;
 }
 
 @media screen and (min-width: 40em) {
