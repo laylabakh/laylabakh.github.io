@@ -64,12 +64,59 @@ nav {
     grid-gap: .2em;
 }
 
-nav.label{
-    flex: auto;
+}
+main.gallery {
+    position: relative;
+	overflow: auto;
+    padding-bottom: calc(60%);
+	height:25%;
+	
+	
 }
 
-input {
+main.gallery figure {
+    margin: 0;
+    width: flex;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+	padding-left: 1em;
+}
+
+main.gallery figcaption {
+    color: rgb(240, 240, 240);
+  font-family: "termina", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+ margin: auto;
+}
+nav.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1em 0em;
+    grid-gap: 0.2em;
+	margin-left: 1em;
+}
+h3.gallery{
+   color: rgb(240, 240, 240);
+  text-decoration: none;
+  font-family: "termina", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+}
+div.gallery input {
     display: none;
 }
+input[name="item"] {
+    display: none;
+}
+figure.gallery img{
+		width: 50em;
+		height: 50em;
+		flex: 1 0 40em;
+		object-fit: cover;
+	}
 
 /* how tall deos my padding nrrf yyyo be : the height of the image, but how tall is the image: the height of the container > devide 2 number byyyy the first number 
