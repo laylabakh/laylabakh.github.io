@@ -70,6 +70,10 @@ h2, li a {
 
 li {
     line-height: 1.4em;
+    font-family: "copal-std-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem; 
 }
 
 p {
@@ -128,7 +132,7 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(8){
     opacity: 1;
 }
 
-}
+
 main.gallery {
     position: relative;
 	overflow: auto;
@@ -182,6 +186,32 @@ figure.gallery img{
 		flex: 1 0 40em;
 		object-fit: cover;
 	}
+
+section.form{
+    color: rgb(3, 3, 3);
+  text-decoration: none;
+  font-family: "termina", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+}
+
+textarea{
+    color: rgb(3, 3, 3);
+  text-decoration: none;
+  font-family: "termina", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 13px;
+}
+
+h3{
+    color: rgb(23, 22, 22);
+   text-decoration: none;
+   font-family: "termina", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 13px;}
 
 @media screen and (min-width: 40em) {
     nav ul li {
@@ -302,6 +332,7 @@ section.secondary a h2 {
 
 section.secondary a p{
     flex: 0 0 4em;
+}
 }
 
 
