@@ -278,6 +278,21 @@ div.home-container main{
 
 }
 
+
+div.gallery main{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	max-width: 50%;
+	margin: auto;
+}
+
+div.gallery nav{
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	grid-gap:0.2em;
+}
+
 div.home-container aside{
     background: none;
     padding: 0;
