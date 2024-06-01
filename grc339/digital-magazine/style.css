@@ -7,7 +7,7 @@ img {
     display: block;
 }
 
-div.container, div.home-container {
+div.container, div.home-container, div.container nav {
     margin: auto;
     position: relative;
     max-width: 40em;
@@ -17,7 +17,7 @@ header {
     padding: 1rem .5rem 0;
 }
 
-nav {
+nav, div.container nav {
     padding: 1rem 0;
     font-family: "copal-std-solid", sans-serif;
     font-weight: 400;
@@ -68,7 +68,7 @@ h2, li a {
     color: #2d2e2e;
 }
 
-li {
+li, div.container li {
     line-height: 1.4em;
     font-family: "copal-std-solid", sans-serif;
     font-weight: 400;
