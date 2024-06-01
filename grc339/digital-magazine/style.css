@@ -143,8 +143,9 @@ main.gallery {
 }
 
 main.gallery figure {
+	margin:0;
     width: flex;
-    position:relative;
+    position: absolute;
     opacity: 0;
     transition: opacity 0.5s;
 	padding-left: 1em;
