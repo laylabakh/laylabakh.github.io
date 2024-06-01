@@ -212,7 +212,7 @@ h3{
    font-style: normal;
    font-size: 13px;}
 
-div.labels{
+nav.labels{
 	display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 1em 0em;
