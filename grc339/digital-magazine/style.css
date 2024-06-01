@@ -156,6 +156,7 @@ div.gallery figure {
     position: absolute;
     opacity: 0;
     transition: opacity 0.5s;
+	left: 100%
 }
 
 div.gallery main{
@@ -164,6 +165,8 @@ div.gallery main{
 	position: relative;
 	max-width: 50%;
 	margin: auto;
+	min-height: 25em;
+	background: #ddd;
 }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
