@@ -155,8 +155,7 @@ div.gallery figure {
     width: calc(100%-2em);
     position: absolute;
     opacity: 0;
-    transition: opacity 0.5s;
-	left: 100%
+    transition: opacity 1s;
 }
 
 div.gallery main{
