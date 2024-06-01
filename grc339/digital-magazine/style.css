@@ -158,6 +158,14 @@ div.gallery figure {
     transition: opacity 0.5s;
 }
 
+div.gallery main{
+	display:block;
+	overflow: hidden;
+	position: relative;
+	max-width: 50%;
+	margin: auto;
+}
+
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
 input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
 input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
