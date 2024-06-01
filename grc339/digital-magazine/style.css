@@ -166,6 +166,8 @@ div.gallery main{
 	margin: auto;
 	min-height: 25em;
 	background: #ddd;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 3em; 
 }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
