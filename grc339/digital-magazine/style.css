@@ -137,6 +137,7 @@ div.gallery body{
 	box-sizing: border-box;
 	margin: 0;
 	padding:0;
+    overflow: hidden;
 }
 
 div.gallery h1 {
@@ -155,18 +156,19 @@ div.gallery figure {
     width: calc(100%-2em);
     position: absolute;
     opacity: 0;
+    overflow: hidden;
     transition: opacity 1s;
 }
 
 div.gallery main{
-	display:block;
+	display:inline-block;
 	overflow: hidden;
 	position: relative;
-	max-width: 50%;
+    max-width: 70%;
+    min-height: 25em;
 	margin: auto;
-	min-height: 25em;
-	background: #ddd;
-	grid-template-columns: 1fr 1fr;
+	background: #e03b3b;
+	grid-template-columns: 1fr;
 	grid-column-gap: 3em; 
 }
 
@@ -185,6 +187,7 @@ div.gallery nav {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 0.2em;
+    overflow: hidden;
 }
 
 
