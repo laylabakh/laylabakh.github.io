@@ -161,13 +161,11 @@ div.gallery figure {
 }
 
 div.gallery main{
-	display:inline-block;
+	display:block;
 	overflow: hidden;
 	position: relative;
     max-width: 70%;
-    min-height: 25em;
 	margin: auto;
-	background: #e03b3b;
 	grid-template-columns: 1fr;
 	grid-column-gap: 3em; 
 }
@@ -185,8 +183,8 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 
 div.gallery nav {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-gap: 0.2em;
+    grid-template-columns: repeat(8, 2fr);
+    grid-gap: 0.8em;
     overflow: hidden;
 }
 
@@ -288,8 +286,9 @@ div.gallery main{
 	display: block;
 	overflow: hidden;
 	position: relative;
-	max-width: 50%;
-	margin: auto;
+	max-width: 100%;
+	margin-left: 5em;
+    padding-left: 3em;
 }
 
 div.gallery nav{
