@@ -142,10 +142,9 @@ div.gallery article {
 
 div.gallery figure {
     margin: 0;
-    width: calc(100%-2em);
+    width: 100%;
     position: absolute;
     opacity: 0;
-    overflow: hidden;
     transition: opacity 1s;
 }
 
@@ -276,14 +275,13 @@ div.gallery main{
 	overflow: hidden;
 	position: relative;
 	max-width: 100%;
-	margin-left: 5em;
-    margin-right: 5em;
+	margin: auto;
 }
 
 div.gallery nav{
 	display: grid;
 	grid-template-columns: repeat(8,1fr);
-	grid-gap:0.2em;
+	grid-gap:.5em;
 }
 
 div.home-container aside{
@@ -352,3 +350,4 @@ section.secondary a p{
     flex: 0 0 4em;
 }
 }
+
